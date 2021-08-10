@@ -190,7 +190,7 @@ main{
     background-image: url(background2-min.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 55vw;
+    height: 60vw;
     /* przeliczanie */
 }
 #logo{
@@ -210,13 +210,14 @@ main{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 80px;
-    width: 90%;
-    height: fit-content;
+    top: 100px;
+    width: 280px;
+    height: 10%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.219);
 }
 h2{
@@ -238,7 +239,9 @@ h2{
     text-align: center;
     cursor: pointer;
     padding: 1rem;
-    font-size: 2.5rem;
+}
+.icon{
+    font-size: 2rem;
 }
 .select > span{
     width: 100%;
