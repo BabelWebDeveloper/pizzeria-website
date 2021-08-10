@@ -191,6 +191,7 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     height: 70vw;
+    background-position: 50% 50%;
     /* przeliczanie */
 }
 #logo{
