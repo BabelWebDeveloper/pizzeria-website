@@ -236,7 +236,7 @@ h2{
     text-align: center;
     cursor: pointer;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .select > span{
     width: 100%;
@@ -383,7 +383,7 @@ h3{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-    height: 70vw;
+    height: 80vw;
     background-position: center;
     position: relative;
     display: flex;
@@ -398,6 +398,7 @@ h3{
     display: flex;
     justify-content:flex-start;
     flex-direction: column;
+    align-items: center;
 }
 #contact-us > article > div{
     padding: 2rem 0;
@@ -409,4 +410,6 @@ figcaption{
     display: flex;
     flex-direction: column;
     color: white;
+    width: 90%;
+    background-color: black;
 }
