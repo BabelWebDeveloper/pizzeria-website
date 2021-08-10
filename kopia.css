@@ -250,7 +250,6 @@ h2{
     width: 80%;
     height: 20px;
     display: none;
-    font-size: 1.4rem;
 }
 .select:hover > input{
     display: inherit;

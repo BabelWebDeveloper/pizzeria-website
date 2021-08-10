@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <title>Pizzeria website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="menu">
+    <header>
+        <a href=""><img src="logo3.png" alt="" ></a>
+        <label for="menu">&#9776;</label>
+        <nav>
+            <a href="#">Our story</a>
+            <a href="#">News & Events</a>
+            <a href="#">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- start-page -->
+        <section id="start-page">
+            <article id="book-a-table">
+                <h2 class="border">Book a table</h2>
+                <div id="parameters">
+                    <div class="select">
+                        <div class="icon">&#128467;</div>
+                        <span class="text">Select a date</span>
+                        <input type="date" class="text" required>
+                    </div>
+                    <div class="select">
+                        <div class="icon">&#x1F552;</div>
+                        <span class="text">Select a time</span>
+                        <input type="time" class="text" required>
+                    </div>
+                    <div class="select">
+                        <div class="icon">&#128483;</div>
+                        <span class="text">Select guests</span>
+                        <input type="number" class="text" placeholder="1" max="8" required>
+                    </div>
+                </div>
+                <input type="submit">
+                <label for="button" id="button-label" class="text border">
+                    <span class="text">Book now!</span>
+                </label>
+            </article>
+        </section>
+
+        <!-- menu -->
+        <section id="menu-img">
+            <img src="pizza-menu-min.png" alt="">
+        </section>
+
+        <!-- our story -->
+        <section id="our-story">
+            <img src="broken-paper-edited.png" alt="" class="separator1">
+            <article class="content-on-black-bgc text">
+                <h2>Our story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus temporibus, molestias in minima quibusdam veritatis necessitatibus, voluptates porro consequuntur quod rem id maiores eius autem accusamus. Assumenda laudantium asperiores voluptate.</p>
+            </article>
+            <img src="broken-paper-edited2.png" alt="" class="separator2">
+        </section>
+
+        <!-- news & events -->
+        <section id="news-events">
+            <h2>News & events</h2>
+            <article class="event">
+                <h3>Title</h3>
+                <h3>23 Jun</h3>
+                <div class="ne-image">
+                    <img src="event-heart-min.jpg" alt="">
+                </div>
+                <div class="text content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim est ea, commodi iure labore hic error sed expedita aliquid praesentium. Quae quam laborum animi necessitatibus eum mollitia sapiente aspernatur reiciendis.</p>
+                </div>
+            </article>
+            <article class="event">
+                <h3>Title</h3>
+                <h3>03 Jul</h3>
+                <div class="ne-image">
+                    <img src="event-glass-min.jpg" alt="" class="ne-image">
+                </div>
+                <div class=" content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea tempora atque quaerat, modi suscipit deleniti nobis ducimus laboriosam non minus aliquam perspiciatis officiis delectus autem placeat praesentium reprehenderit, voluptatem rem.</p>
+                </div>
+            </article>
+            <article class="event">
+                <h3>Title</h3>
+                <h3>24 Aug</h3>
+                <div class="ne-image">
+                    <img src="event-karaoke-min.jpg" alt="" class="ne-image">
+                </div>
+                <div class="text content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quas, temporibus vero tempora porro quaerat commodi sed repellat inventore, laborum pariatur reiciendis dicta. At beatae facere dignissimos suscipit, esse quisquam!</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- contact -->
+        <section id="contact-us">
+            <img src="broken-paper-edited.png" alt="" class="separator1">
+            <article>
+                <div id="address" class="text">&#x1F588;12 Lorem, 11-111 Ipsum</div>
+                <div id="phone" class="text">&#x1F57E;Phone: +123456789</div>
+                <div id="email" class="text">&#x1F4E7;E-mail: email@email.com</div>
+                <figcaption>
+                    Background photo by <a href="https://unsplash.com/@empowers_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Powers</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
+                    Hand photo by <a href="https://unsplash.com/@alienowicz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Artur Rutkowski</a> on <a href="https://unsplash.com/@babelwebdeveloper/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    
+                    Pizza menu Photo by <a href="https://unsplash.com/@runningvita?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vita Marija Murenaite</a> on <a href="https://unsplash.com/@babelwebdeveloper/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    
+                    Event glass Photo by <a href="https://unsplash.com/@yutacar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yutacar</a> on <a href="https://unsplash.com/s/photos/resteurant-party?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    
+                    Event heart Photo by <a href="https://unsplash.com/@anthonydelanoix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony DELANOIX</a> on <a href="https://unsplash.com/s/photos/resteurant-party?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      
+                    event karaoke Photo by <a href="https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Priscilla Du Preez</a> on <a href="https://unsplash.com/s/photos/karaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      
+                    pizzeria outdoor Photo by <a href="https://unsplash.com/@davidsonluna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">D A V I D S O N L U N A</a> on <a href="https://unsplash.com/s/photos/pizzeria-outdoor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+                </figcaption>
+            </article>
+        </section>
+        
+    </main>
+</body>
+</html>
