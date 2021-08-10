@@ -187,10 +187,10 @@ main{
 /* start page */
 #start-page{
     width: 100%;
-    background-image: url(background-min.png);
+    background-image: url(background2-min.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 70vw;
+    height: 55vw;
     /* przeliczanie */
 }
 #logo{
@@ -202,7 +202,7 @@ main{
     }
 }
 /* book a table */
-.text1{
+.text{
     font-size: 1.8rem;
 }
 #book-a-table{
@@ -217,9 +217,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.219);
 }
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
     text-align: center;
 }
 #parameters{
@@ -240,7 +242,6 @@ h2{
 }
 .select > span{
     width: 100%;
-    text-shadow: 2px 2px black;
 }
 .select > input{
     width: 80%;
@@ -257,6 +258,7 @@ article > input{
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.377);
     border-radius: 2rem;
+    color: white;
 }
 #button-label{
     transition: 1s ease;
@@ -267,8 +269,7 @@ article > input{
 }
 @media only screen and (min-width:700px){
     #book-a-table{
-        top: 17vw;
-        /* przeliczanie */
+        top: 200px;
         right: 20px;
         width: 50%;
         left: unset;
@@ -277,7 +278,7 @@ article > input{
     #parameters{
         justify-content: space-around;
     }
-    .text1{
+    .text{
         font-size: 2.4rem;
     }
 }
@@ -383,7 +384,7 @@ h3{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-    height: 80vw;
+    height: 150vw;
     background-position: center;
     position: relative;
     display: flex;
