@@ -143,11 +143,11 @@ header > nav{
     right: 0;
     font-size: 1.8rem;
     line-height: 6rem;
-    padding-left: 2rem;
     background: rgba(231, 145, 21, 0.64);
 }
 header > nav > a{
     color: black;
+    text-align: center;
 }
 #menu:checked ~ header > nav{
     display: flex;
@@ -180,6 +180,7 @@ header > nav > a{
 
 /* MAIN */
 main{
+    min-width: 350px;
     width: 100%;
     z-index: 1;
 }
@@ -192,7 +193,7 @@ main{
         }
             /* book a table */
             #start-background{
-                height: 50vw;
+                height: 55vw;
                 background-image: url(background2-min.png);
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -221,10 +222,11 @@ main{
                         border-radius: 20px;
                         height: fit-content;
                         width: fit-content;
-                        padding: 0.3rem;
+                        padding: 0.5rem;
+                        margin: 10px 0;
                     }
                         .h2-text{
-                            font-size: 3.2rem;
+                            font-size: 3rem;
                             letter-spacing: 0.2rem;
                         }
                     #parameters{
