@@ -193,7 +193,7 @@ main{
         }
             /* book a table */
             #start-background{
-                height: 90vw;
+                height: 95vw;
                 background-image: url(background2-min.png);
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -207,7 +207,7 @@ main{
                     color: white;
                     width: 70%;
                     height: 150px;
-                    margin-top: 40vw;
+                    margin-top: 45vw;
                     display: flex;
                     justify-content:space-around;
                     align-items: center;
@@ -222,13 +222,17 @@ main{
                         border-radius: 20px;
                         height: fit-content;
                         width: fit-content;
-                        padding: 0.5rem;
+                        padding: 10px;
                         margin: 10px 0;
+                        transition: 250ms;
 
                         animation-name: color-change;
                         animation-duration: 1s;
                         animation-iteration-count: infinite;
                         animation-timing-function: ease-out;
+                    }
+                    #book-a-table > label:hover{
+                        background-color: #FF322B;
                     }
                     @keyframes color-change{
                         0% {
