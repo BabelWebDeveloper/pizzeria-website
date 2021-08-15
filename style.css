@@ -296,19 +296,20 @@ main{
     /* our story */
             /* .start page in 186 line */
                 #our-story{
-                    position: relative;
                     background-blend-mode: multiply;
-                    background-attachment: fixed;
-                    height: calc(100vw - 20%);
-                    background:rgba(0, 0, 0, 0.4) url(hand-hd-min.png);
-                    background-position: center;
+                    background: rgba(0, 0, 0, 0.4) url(hand-hd-min.png);
                     background-size: cover;
                     background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-position: bottom;
+                    height: fit-content;
+                    min-height: 500px;
+                    background-position: center;
+                    position: relative;
                     display: flex;
-                    flex-direction: column;
-                    justify-content:flex-start;
+                    justify-content: flex-start;
                     align-items: center;
-                    text-align: center;
+                    flex-direction: column;
                 }
                     .separator1{
                         width: 100%;
